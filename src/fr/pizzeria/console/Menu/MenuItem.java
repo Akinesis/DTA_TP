@@ -1,5 +1,7 @@
 package fr.pizzeria.console.Menu;
 
+import fr.pizzeria.model.Pizza;
+
 public interface MenuItem {
-   boolean handleChoice();
+   boolean handleChoice(Pizza[] pizzas);
 }

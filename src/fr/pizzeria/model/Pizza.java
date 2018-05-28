@@ -24,4 +24,16 @@ public class Pizza {
 
         counter ++;
     }
+
+    public String toString(){
+        return code + " -> " + libelle + "("+prix+" €)";
+    }
+
+    public String getCode(){
+        return code;
+    }
+
+    public int getID(){
+        return id;
+    }
 }

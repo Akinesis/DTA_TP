@@ -1,5 +1,7 @@
 package fr.pizzeria.console.Menu;
 
+import fr.pizzeria.model.Pizza;
+
 public class MenuSwich {
 
     private MenuItem menuChoice;
@@ -9,8 +11,8 @@ public class MenuSwich {
     }
 
     //Execute all the code for the current menu choice
-    public boolean executeMenuLine(){
-        return menuChoice.handleChoice();
+    public boolean executeMenuLine(Pizza[] pizzas){
+        return menuChoice.handleChoice(pizzas);
     }
 
     // Link the correct menu strategy based on the user selection

@@ -1,19 +1,23 @@
 package fr.pizzeria.console;
 
+import fr.pizzeria.Utils.KeyboardReader;
 import fr.pizzeria.console.Menu.MenuList;
 import fr.pizzeria.console.Menu.MenuSwich;
+import fr.pizzeria.model.Pizza;
 
-import java.util.Scanner;
 
 public class PizzeriaAdminConsoleApp {
 
-    public Scanner scan;
+
     private MenuSwich menu;
+    private Pizza[] pizzas = new Pizza[99];
 
     private boolean applicationIsTerminated;
 
     public static void main(String[] args) {
         PizzeriaAdminConsoleApp app = new PizzeriaAdminConsoleApp();
+
+        app.initiatePizzaArray();
 
         int userInput = -1;
 
@@ -21,7 +25,8 @@ public class PizzeriaAdminConsoleApp {
 
             app.startScreen();
 
-            userInput = app.scan.nextInt();
+            //read the user input and parse it to Integer
+            userInput = Integer.parseInt(KeyboardReader.readInput());
 
             if ((userInput > 0 && userInput < 5) || userInput == 99) {
 
@@ -37,7 +42,6 @@ public class PizzeriaAdminConsoleApp {
     }
 
     public PizzeriaAdminConsoleApp() {
-        scan = new Scanner(System.in);
         //default state is set to list all pizza
         menu = new MenuSwich(new MenuList());
         //boolean value to check if the application must stop.
@@ -46,7 +50,7 @@ public class PizzeriaAdminConsoleApp {
 
     //execute the code for the user choice
     public void executeMenuLine() {
-        applicationIsTerminated = menu.executeMenuLine();
+        applicationIsTerminated = menu.executeMenuLine(pizzas);
     }
 
     private void startScreen() {
@@ -60,5 +64,17 @@ public class PizzeriaAdminConsoleApp {
 
     public boolean isTerminated(){
         return applicationIsTerminated;
+    }
+
+    private void initiatePizzaArray() {
+
+        pizzas[0] = new Pizza("PEP", "Pépéroni", 12.5);
+        pizzas[1] = new Pizza("MAR", "Margherita", 15);
+        pizzas[2] = new Pizza("REIN", "La Reine", 11.5);
+        pizzas[3] = new Pizza("FRO", "La 4 fromages", 12);
+        pizzas[4] = new Pizza("CAN", "La cannibale", 12.5);
+        pizzas[5] = new Pizza("SAV", "La savoyarde", 13);
+        pizzas[6] = new Pizza("ORI", "L’orientale", 13.5);
+        pizzas[7] = new Pizza("IND", "L’indienne", 14);
     }
 }
