@@ -36,4 +36,18 @@ public class Pizza {
     public int getID(){
         return id;
     }
+
+    @Override
+    //Implementation of equals for more efficient usage of the List
+    public boolean equals(Object obj) {
+
+        if(obj instanceof Pizza){
+            Pizza objTemp = (Pizza)obj;
+
+            return (objTemp.getCode() == this.code ? true : false);
+
+        }else{
+            return false;
+        }
+    }
 }

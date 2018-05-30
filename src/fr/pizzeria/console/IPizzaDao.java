@@ -2,9 +2,11 @@ package fr.pizzeria.console;
 
 import fr.pizzeria.model.Pizza;
 
+import java.util.List;
+
 public interface IPizzaDao {
 
-    Pizza[] findAllPizzas();
+    List<Pizza> findAllPizzas();
 
     void saveNewPizza(Pizza pizza);
 

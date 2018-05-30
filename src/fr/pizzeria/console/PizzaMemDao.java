@@ -2,12 +2,15 @@ package fr.pizzeria.console;
 
 import fr.pizzeria.model.Pizza;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PizzaMemDao implements IPizzaDao {
 
-    private Pizza[] pizzas;
+    private List<Pizza> pizzas;
 
     public PizzaMemDao() {
-        pizzas = new Pizza[99];
+        pizzas = new ArrayList<Pizza>();
 
         saveNewPizza(new Pizza("PEP", "Pépéroni", 12.5));
         saveNewPizza(new Pizza("MAR", "Margherita", 15));
@@ -20,22 +23,15 @@ public class PizzaMemDao implements IPizzaDao {
     }
 
     @Override
-    public Pizza[] findAllPizzas() {
+    public List<Pizza> findAllPizzas() {
         return pizzas;
     }
 
     @Override
     public void saveNewPizza(Pizza pizza) {
 
-        int nextFreeSlot = 0;
-
-        //iterate through the pizza array until a free slot is found
-        while(pizzas[nextFreeSlot] != null){
-            nextFreeSlot++;
-        }
-
         //add the new pizza
-        pizzas[nextFreeSlot] = pizza;
+        pizzas.add(pizza);
 
     }
 
@@ -45,14 +41,13 @@ public class PizzaMemDao implements IPizzaDao {
         int i = 0;
 
         //Look for the index of the pizza to update and replace it
-        for(Pizza p : pizzas){
-            if (p != null){
-                if(p.getCode().equals(codePizza)){
-                    pizzas[i] = pizza;
-                    break;
-                }
+        for (Pizza p : pizzas) {
+            if (p.getCode().equals(codePizza)) {
+                pizzas.remove(p);
+                pizzas.add(pizza);
+                break;
             }
-            i++;
+
         }
     }
 
@@ -61,25 +56,20 @@ public class PizzaMemDao implements IPizzaDao {
 
         int i = 0;
 
-        for(Pizza p : pizzas){
-            if (p != null){
-                if(p.getCode().equals(codePizza)){
-                    pizzas[i] = null;
-                    break;
-                }
+        for (Pizza p : pizzas) {
+            if (p.getCode().equals(codePizza)) {
+                pizzas.remove(p);
+                break;
             }
-            i++;
         }
     }
 
     @Override
     public Pizza findPizzaByCode(String codePizza) {
 
-        for(Pizza p : pizzas){
-            if (p != null){
-                if(p.getCode().equals(codePizza)){
-                    return p;
-                }
+        for (Pizza p : pizzas) {
+            if (p.getCode().equals(codePizza)) {
+                return p;
             }
         }
 
@@ -89,11 +79,9 @@ public class PizzaMemDao implements IPizzaDao {
     @Override
     public boolean pizzaExists(String codePizza) {
 
-        for(Pizza p : pizzas){
-            if (p != null){
-                if(p.getCode().equals(codePizza)){
-                    return true;
-                }
+        for (Pizza p : pizzas) {
+            if (p.getCode().equals(codePizza)) {
+                return true;
             }
         }
 

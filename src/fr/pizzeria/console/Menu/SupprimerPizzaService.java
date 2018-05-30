@@ -12,10 +12,8 @@ public class SupprimerPizzaService implements MenuService {
         int i = 0;
 
         //show the list of all the pizza in the array.
-        for(Pizza p : pizzasManager.findAllPizzas()){
-            if (p != null){
-                System.out.println(p.toString());
-            }
+        for (Pizza p : pizzasManager.findAllPizzas()) {
+            System.out.println(p.toString());
         }
 
         System.out.println("Veuillez choisir le code de la pizza à supprimer :");
