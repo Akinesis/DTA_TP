@@ -1,23 +1,20 @@
 package fr.pizzeria.console;
 
 import fr.pizzeria.Utils.KeyboardReader;
-import fr.pizzeria.console.Menu.MenuList;
-import fr.pizzeria.console.Menu.MenuSwich;
-import fr.pizzeria.model.Pizza;
+import fr.pizzeria.console.Menu.ListerPizzasService;
+import fr.pizzeria.console.Menu.MenuServiceFactory;
 
 
 public class PizzeriaAdminConsoleApp {
 
 
-    private MenuSwich menu;
-    private Pizza[] pizzas = new Pizza[99];
+    private MenuServiceFactory menu;
+    private PizzaMemDao pizzasManager;
 
     private boolean applicationIsTerminated;
 
     public static void main(String[] args) {
         PizzeriaAdminConsoleApp app = new PizzeriaAdminConsoleApp();
-
-        app.initiatePizzaArray();
 
         int userInput = -1;
 
@@ -38,19 +35,22 @@ public class PizzeriaAdminConsoleApp {
     }
 
     private void setMenuChoice(int userInput) {
+        //note : Required implementation hse been encapsulated directly inside the "executeMenuLine" function of the factory.
         menu.setMenuChoice(userInput);
     }
 
     public PizzeriaAdminConsoleApp() {
         //default state is set to list all pizza
-        menu = new MenuSwich(new MenuList());
+        menu = new MenuServiceFactory(new ListerPizzasService());
         //boolean value to check if the application must stop.
         applicationIsTerminated = false;
+        //create the Pizza doa object. First pizzas are initiate int the constructor
+        pizzasManager = new PizzaMemDao();
     }
 
     //execute the code for the user choice
     public void executeMenuLine() {
-        applicationIsTerminated = menu.executeMenuLine(pizzas);
+        applicationIsTerminated = menu.executeMenuLine(pizzasManager);
     }
 
     private void startScreen() {
@@ -66,15 +66,4 @@ public class PizzeriaAdminConsoleApp {
         return applicationIsTerminated;
     }
 
-    private void initiatePizzaArray() {
-
-        pizzas[0] = new Pizza("PEP", "Pépéroni", 12.5);
-        pizzas[1] = new Pizza("MAR", "Margherita", 15);
-        pizzas[2] = new Pizza("REIN", "La Reine", 11.5);
-        pizzas[3] = new Pizza("FRO", "La 4 fromages", 12);
-        pizzas[4] = new Pizza("CAN", "La cannibale", 12.5);
-        pizzas[5] = new Pizza("SAV", "La savoyarde", 13);
-        pizzas[6] = new Pizza("ORI", "L’orientale", 13.5);
-        pizzas[7] = new Pizza("IND", "L’indienne", 14);
-    }
 }

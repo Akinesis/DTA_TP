@@ -1,11 +1,12 @@
 package fr.pizzeria.console.Menu;
 
 import fr.pizzeria.Utils.KeyboardReader;
+import fr.pizzeria.console.PizzaMemDao;
 import fr.pizzeria.model.Pizza;
 
-public class MenuAdd implements fr.pizzeria.console.Menu.MenuItem {
+public class AjouterPizzaService implements MenuService {
 
-    public boolean handleChoice(Pizza[] pizzas){
+    public boolean executeUC(PizzaMemDao pizzasManager){
 
         String tempCode,tempLibel;
         double tempPrice;
@@ -19,12 +20,8 @@ public class MenuAdd implements fr.pizzeria.console.Menu.MenuItem {
         System.out.println("Veuillez saisir le prix :");
         tempPrice = Double.parseDouble(KeyboardReader.readInput());
 
-        //iterate through the pizza array until a free slot is found
-        while(pizzas[nextFreeSlot] != null){
-            nextFreeSlot++;
-        }
-
-        pizzas[nextFreeSlot] = new Pizza(tempCode,tempLibel,tempPrice);
+        //Save the new pizza using th pizza dao
+        pizzasManager.saveNewPizza(new Pizza(tempCode,tempLibel,tempPrice));
 
         //application don't end after this statement
         return false;

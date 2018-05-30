@@ -1,13 +1,14 @@
 package fr.pizzeria.console.Menu;
 
+import fr.pizzeria.console.PizzaMemDao;
 import fr.pizzeria.model.Pizza;
 
-public class MenuList implements fr.pizzeria.console.Menu.MenuItem {
+public class ListerPizzasService implements MenuService {
 
-    public boolean handleChoice(Pizza[] pizzas){
+    public boolean executeUC(PizzaMemDao pizzasManager){
 
         //show the list of all the pizza in the array.
-        for(Pizza p : pizzas){
+        for(Pizza p : pizzasManager.findAllPizzas()){
             if (p != null){
                 System.out.println(p.toString());
             }

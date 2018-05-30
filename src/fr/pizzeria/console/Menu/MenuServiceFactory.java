@@ -1,18 +1,18 @@
 package fr.pizzeria.console.Menu;
 
-import fr.pizzeria.model.Pizza;
+import fr.pizzeria.console.PizzaMemDao;
 
-public class MenuSwich {
+public class MenuServiceFactory {
 
-    private MenuItem menuChoice;
+    private MenuService menuChoice;
 
-    public MenuSwich(MenuItem choice){
+    public MenuServiceFactory(MenuService choice){
         menuChoice = choice;
     }
 
     //Execute all the code for the current menu choice
-    public boolean executeMenuLine(Pizza[] pizzas){
-        return menuChoice.handleChoice(pizzas);
+    public boolean executeMenuLine(PizzaMemDao pizzasManager){
+        return menuChoice.executeUC(pizzasManager);
     }
 
     // Link the correct menu strategy based on the user selection
@@ -20,19 +20,19 @@ public class MenuSwich {
     public void setMenuChoice(int choice){
         switch (choice) {
             case 1:
-                menuChoice = new MenuList();
+                menuChoice = new ListerPizzasService();
                 break;
             case 2:
-                menuChoice = new MenuAdd();
+                menuChoice = new AjouterPizzaService();
                 break;
             case 3:
-                menuChoice = new MenuUpdate();
+                menuChoice = new ModifierPizzaService();
                 break;
             case 4:
-                menuChoice = new MenuDelete();
+                menuChoice = new SupprimerPizzaService();
                 break;
             case 99:
-                menuChoice = new MenuQuit();
+                menuChoice = new QuitterPizzaService();
                 break;
             default:
                 break;

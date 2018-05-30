@@ -1,11 +1,12 @@
 package fr.pizzeria.console.Menu;
 
 import fr.pizzeria.Utils.KeyboardReader;
+import fr.pizzeria.console.PizzaMemDao;
 import fr.pizzeria.model.Pizza;
 
-public class MenuUpdate implements fr.pizzeria.console.Menu.MenuItem {
+public class ModifierPizzaService implements MenuService {
 
-    public boolean handleChoice(Pizza[] pizzas){
+    public boolean executeUC(PizzaMemDao pizzasManager){
 
         String oldCode;
         String tempCode,tempLibel;
@@ -13,7 +14,7 @@ public class MenuUpdate implements fr.pizzeria.console.Menu.MenuItem {
         int i = 0;
 
         //show the list of all the pizza in the array.
-        for(Pizza p : pizzas){
+        for(Pizza p : pizzasManager.findAllPizzas()){
             if (p != null){
                 System.out.println(p.toString());
             }
@@ -29,16 +30,9 @@ public class MenuUpdate implements fr.pizzeria.console.Menu.MenuItem {
         System.out.println("Veuillez saisir le prix :");
         tempPrice = Double.parseDouble(KeyboardReader.readInput());
 
-        //Look for the index of the pizza to delete and replace it
-        for(Pizza p : pizzas){
-            if (p != null){
-                if(p.getCode().equals(oldCode)){
-                    pizzas[i] = new Pizza(p.getID(),tempCode,tempLibel,tempPrice);
-                    break;
-                }
-            }
-            i++;
-        }
+        //Update the pizza using the pizza DAO
+        pizzasManager.updatePizza(oldCode, new Pizza(tempCode,tempLibel,tempPrice));
+
 
         //application don't end after this statement
         return false;
