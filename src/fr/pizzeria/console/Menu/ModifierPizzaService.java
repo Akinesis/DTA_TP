@@ -2,11 +2,12 @@ package fr.pizzeria.console.Menu;
 
 import fr.pizzeria.Utils.KeyboardReader;
 import fr.pizzeria.console.PizzaMemDao;
+import fr.pizzeria.exception.StockageException;
 import fr.pizzeria.model.Pizza;
 
 public class ModifierPizzaService implements MenuService {
 
-    public boolean executeUC(PizzaMemDao pizzasManager){
+    public boolean executeUC(PizzaMemDao pizzasManager) throws StockageException{
 
         String oldCode;
         String tempCode,tempLibel;
@@ -30,6 +31,7 @@ public class ModifierPizzaService implements MenuService {
 
         //Update the pizza using the pizza DAO
         pizzasManager.updatePizza(oldCode, new Pizza(tempCode,tempLibel,tempPrice));
+
 
 
         //application don't end after this statement

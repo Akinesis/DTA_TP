@@ -3,6 +3,7 @@ package fr.pizzeria.console;
 import fr.pizzeria.Utils.KeyboardReader;
 import fr.pizzeria.console.Menu.ListerPizzasService;
 import fr.pizzeria.console.Menu.MenuServiceFactory;
+import fr.pizzeria.exception.StockageException;
 
 
 public class PizzeriaAdminConsoleApp {
@@ -50,7 +51,11 @@ public class PizzeriaAdminConsoleApp {
 
     //execute the code for the user choice
     public void executeMenuLine() {
-        applicationIsTerminated = menu.executeMenuLine(pizzasManager);
+        try {
+            applicationIsTerminated = menu.executeMenuLine(pizzasManager);
+        } catch (StockageException e) {
+            e.printStackTrace();
+        }
     }
 
     private void startScreen() {
@@ -62,7 +67,7 @@ public class PizzeriaAdminConsoleApp {
                 "99. Sortir\n");
     }
 
-    public boolean isTerminated(){
+    public boolean isTerminated() {
         return applicationIsTerminated;
     }
 
