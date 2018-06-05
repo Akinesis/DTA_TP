@@ -18,12 +18,10 @@
       <file leaf-file-name="PizzeriaAdminConsoleApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/PizzeriaAdminConsoleApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state relative-caret-position="94">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2070#2071#0" expanded="true" />
-                <element signature="e#2116#2117#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,8 +42,8 @@
       <file leaf-file-name="PizzaMemDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/PizzaMemDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
+            <state relative-caret-position="459">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,11 +51,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SupprimerPizzaService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/Menu/SupprimerPizzaService.java">
+      <file leaf-file-name="CategoriePizza.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/model/CategoriePizza.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            <state relative-caret-position="187">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pizza.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/model/Pizza.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+              <folding>
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AjouterPizzaService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/Menu/AjouterPizzaService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/Menu/MenuService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListerPizzasService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/Menu/ListerPizzasService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToString.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/Utils/ToString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,6 +136,8 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -98,19 +164,21 @@
         <option value="$PROJECT_DIR$/src/fr/pizzeria/console/MenuService.java" />
         <option value="$PROJECT_DIR$/src/fr/pizzeria/console/Menu/QuitterPizzaService.java" />
         <option value="$PROJECT_DIR$/src/fr/pizzeria/console/Menu/ListerPizzasService.java" />
-        <option value="$PROJECT_DIR$/src/fr/pizzeria/model/Pizza.java" />
         <option value="$PROJECT_DIR$/src/fr/pizzeria/exception/StockageException.java" />
         <option value="$PROJECT_DIR$/src/fr/pizzeria/exception/SavePizzaException.java" />
         <option value="$PROJECT_DIR$/src/fr/pizzeria/exception/UpdatePizzaException.java" />
         <option value="$PROJECT_DIR$/src/fr/pizzeria/exception/DeletePizzaException.java" />
-        <option value="$PROJECT_DIR$/src/fr/pizzeria/console/Menu/ModifierPizzaService.java" />
         <option value="$PROJECT_DIR$/src/fr/pizzeria/console/Menu/MenuService.java" />
         <option value="$PROJECT_DIR$/src/fr/pizzeria/console/Menu/MenuServiceFactory.java" />
         <option value="$PROJECT_DIR$/src/fr/pizzeria/console/PizzeriaAdminConsoleApp.java" />
         <option value="$PROJECT_DIR$/src/fr/pizzeria/console/IPizzaDao.java" />
-        <option value="$PROJECT_DIR$/src/fr/pizzeria/console/PizzaMemDao.java" />
-        <option value="$PROJECT_DIR$/src/fr/pizzeria/console/Menu/AjouterPizzaService.java" />
         <option value="$PROJECT_DIR$/src/fr/pizzeria/console/Menu/SupprimerPizzaService.java" />
+        <option value="$PROJECT_DIR$/src/fr/pizzeria/console/PizzaMemDao.java" />
+        <option value="$PROJECT_DIR$/src/fr/pizzeria/model/CategoriePizza.java" />
+        <option value="$PROJECT_DIR$/src/fr/pizzeria/console/Menu/AjouterPizzaService.java" />
+        <option value="$PROJECT_DIR$/src/fr/pizzeria/console/Menu/ModifierPizzaService.java" />
+        <option value="$PROJECT_DIR$/src/fr/pizzeria/Utils/ToString.java" />
+        <option value="$PROJECT_DIR$/src/fr/pizzeria/model/Pizza.java" />
       </list>
     </option>
   </component>
@@ -126,8 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,7 +253,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,7 +343,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -286,7 +353,7 @@
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.20729166" side_tool="true" weight="0.2646121" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.875" weight="0.15940489" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.875" weight="0.17428268" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
@@ -321,12 +388,40 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/PizzeriaAdminConsoleApp.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/IPizzaDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/PizzaMemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/PizzeriaAdminConsoleApp.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="46" column="84" selection-start-line="46" selection-start-column="84" selection-end-line="46" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2070#2071#0" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -380,8 +475,6 @@
           <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2070#2071#0" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -582,16 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/Menu/ListerPizzasService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/exception/StockageException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -636,35 +719,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/model/Pizza.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/Menu/SupprimerPizzaService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="391">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding>
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/PizzeriaAdminConsoleApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state relative-caret-position="94">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2070#2071#0" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/Menu/MenuService.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/PizzaMemDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        <state relative-caret-position="459">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/Menu/AjouterPizzaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/Menu/ModifierPizzaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -681,6 +779,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/Utils/ToString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/Menu/ListerPizzasService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/Menu/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/IPizzaDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -691,42 +819,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/Menu/AjouterPizzaService.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/model/CategoriePizza.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        <state relative-caret-position="187">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/Menu/ModifierPizzaService.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/model/Pizza.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="680">
+          <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/PizzaMemDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/pizzeria/console/Menu/SupprimerPizzaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
           </folding>
         </state>
       </provider>

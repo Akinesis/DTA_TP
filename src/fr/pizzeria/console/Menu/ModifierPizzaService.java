@@ -3,6 +3,7 @@ package fr.pizzeria.console.Menu;
 import fr.pizzeria.Utils.KeyboardReader;
 import fr.pizzeria.console.PizzaMemDao;
 import fr.pizzeria.exception.StockageException;
+import fr.pizzeria.model.CategoriePizza;
 import fr.pizzeria.model.Pizza;
 
 public class ModifierPizzaService implements MenuService {
@@ -12,7 +13,7 @@ public class ModifierPizzaService implements MenuService {
         String oldCode;
         String tempCode,tempLibel;
         double tempPrice;
-        int i = 0;
+        CategoriePizza tempCateg;
 
         //show the list of all the pizza in the array.
         for (Pizza p : pizzasManager.findAllPizzas()) {
@@ -28,9 +29,11 @@ public class ModifierPizzaService implements MenuService {
         tempLibel = KeyboardReader.readInput();
         System.out.println("Veuillez saisir le prix :");
         tempPrice = Double.parseDouble(KeyboardReader.readInput());
+        System.out.println("Veuillez saisir la catégorie (viande, poisson, sans viande :");
+        tempCateg = CategoriePizza.findByValue(KeyboardReader.readInput());
 
         //Update the pizza using the pizza DAO
-        pizzasManager.updatePizza(oldCode, new Pizza(tempCode,tempLibel,tempPrice));
+        pizzasManager.updatePizza(oldCode, new Pizza(tempCode,tempLibel,tempPrice,tempCateg));
 
 
 

@@ -1,11 +1,22 @@
 package fr.pizzeria.model;
 
+import fr.pizzeria.Utils.ToString;
+
 public class Pizza {
 
     private int id;
+
+    @ToString(upperCase = true)
     private String code;
+
+    @ToString()
     private String libelle;
+
+    @ToString()
     private double prix;
+
+    @ToString()
+    private CategoriePizza category;
 
     private static  int counter = 0;
 
@@ -16,17 +27,18 @@ public class Pizza {
         this.prix = prix;
     }
 
-    public Pizza(String code, String libelle, double prix){
+    public Pizza(String code, String libelle, double prix, CategoriePizza category){
         this.id = counter;
         this.code = code;
         this.libelle = libelle;
         this.prix = prix;
+        this.category = category;
 
         counter ++;
     }
 
     public String toString(){
-        return code + " -> " + libelle + "("+prix+" €)";
+        return code + " -> " + libelle + "("+prix+" €) Type : "+category;
     }
 
     public String getCode(){

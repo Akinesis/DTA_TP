@@ -1,6 +1,7 @@
 package fr.pizzeria.console;
 
 import fr.pizzeria.exception.*;
+import fr.pizzeria.model.CategoriePizza;
 import fr.pizzeria.model.Pizza;
 
 import java.util.ArrayList;
@@ -14,14 +15,14 @@ public class PizzaMemDao implements IPizzaDao {
         pizzas = new ArrayList<Pizza>();
 
         try {
-            saveNewPizza(new Pizza("PEP", "Pépéroni", 12.5));
-            saveNewPizza(new Pizza("MAR", "Margherita", 15));
-            saveNewPizza(new Pizza("REIN", "La Reine", 11.5));
-            saveNewPizza(new Pizza("FRO", "La 4 fromages", 12));
-            saveNewPizza(new Pizza("CAN", "La cannibale", 12.5));
-            saveNewPizza(new Pizza("SAV", "La savoyarde", 13));
-            saveNewPizza(new Pizza("ORI", "L’orientale", 13.5));
-            saveNewPizza(new Pizza("IND", "L’indienne", 14));
+            saveNewPizza(new Pizza("PEP", "Pépéroni", 12.5, CategoriePizza.VIANDE));
+            saveNewPizza(new Pizza("MAR", "Margherita", 15,CategoriePizza.VIANDE));
+            saveNewPizza(new Pizza("REIN", "La Reine", 11.5,CategoriePizza.SANS_VIANDE));
+            saveNewPizza(new Pizza("FRO", "La 4 fromages", 12,CategoriePizza.SANS_VIANDE));
+            saveNewPizza(new Pizza("CAN", "La cannibale", 12.5,CategoriePizza.VIANDE));
+            saveNewPizza(new Pizza("SAV", "La savoyarde", 13,CategoriePizza.VIANDE));
+            saveNewPizza(new Pizza("ORI", "L’orientale", 13.5,CategoriePizza.POISSON));
+            saveNewPizza(new Pizza("IND", "L’indienne", 14,CategoriePizza.SANS_VIANDE));
         } catch (StockageException e) {
             e.printStackTrace();
         }
