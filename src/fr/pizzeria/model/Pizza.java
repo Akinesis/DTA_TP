@@ -28,11 +28,12 @@ public class Pizza {
     }
 
     public Pizza(String code, String libelle, double prix, CategoriePizza category){
+    	 this.prix = prix;
+         this.category = category;
         this.id = counter;
         this.code = code;
         this.libelle = libelle;
-        this.prix = prix;
-        this.category = category;
+       
 
         counter ++;
     }
