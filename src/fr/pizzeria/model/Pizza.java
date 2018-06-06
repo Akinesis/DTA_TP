@@ -4,63 +4,63 @@ import fr.pizzeria.Utils.ToString;
 
 public class Pizza {
 
-    private int id;
+	private int id;
 
-    @ToString(upperCase = true)
-    private String code;
+	@ToString(upperCase = true)
+	private String code;
 
-    @ToString()
-    private String libelle;
+	@ToString()
+	private String libelle;
 
-    @ToString()
-    private double prix;
+	@ToString()
+	private double prix;
 
-    @ToString()
-    private CategoriePizza category;
+	@ToString()
+	private CategoriePizza category;
 
-    private static  int counter = 0;
+	private static  int counter = 0;
 
-    public Pizza(int id, String code, String libelle, double prix){
-        this.id = id;
-        this.code = code;
-        this.libelle = libelle;
-        this.prix = prix;
-    }
+	public Pizza(int id, String code, String libelle, double prix){
+		this.id = id;
+		this.code = code;
+		this.libelle = libelle;
+		this.prix = prix;
+	}
 
-    public Pizza(String code, String libelle, double prix, CategoriePizza category){
-    	 this.prix = prix;
-         this.category = category;
-        this.id = counter;
-        this.code = code;
-        this.libelle = libelle;
-       
+	public Pizza(String code, String libelle, double prix, CategoriePizza category){
+		this.prix = prix;
+		this.category = category;
+		this.id = counter;
+		this.code = code;
+		this.libelle = libelle;
 
-        counter ++;
-    }
 
-    public String toString(){
-        return code + " -> " + libelle + "("+prix+" €) Type : "+category;
-    }
+		counter ++;
+	}
 
-    public String getCode(){
-        return code;
-    }
+	public String toString(){
+		return code + " -> " + libelle + "("+prix+" €) Type : "+category;
+	}
 
-    public int getID(){
-        return id;
-    }
+	public String getCode(){
+		return code;
+	}
 
-    @Override
-    //Implementation of equals for more efficient usage of the List
-    public boolean equals(Object obj) {
+	public int getID(){
+		return id;
+	}
 
-        if(obj instanceof Pizza){
-            Pizza objTemp = (Pizza)obj;
+	@Override
+	//Implementation of equals for more efficient usage of the List
+	public boolean equals(Object obj) {
 
-            return (objTemp.getCode() == this.code ? true : false);
+		if(obj instanceof Pizza){
+			Pizza objTemp = (Pizza)obj;
 
-        }else{
-            return false;
-        }
-    }
+			return (objTemp.getCode() == this.code ? true : false);
+
+		}else{
+			return false;
+		}
+	}
 }
