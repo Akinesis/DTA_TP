@@ -1,5 +1,7 @@
 package fr.pizzeria.model;
 
+import java.lang.reflect.Field;
+
 import fr.pizzeria.Utils.ToString;
 
 public class Pizza {
@@ -39,7 +41,26 @@ public class Pizza {
 	}
 
 	public String toString(){
-		return code + " -> " + libelle + "("+prix+" €) Type : "+category;
+
+		String temp = "";
+		
+		for(Field f : this.getClass().getFields()){
+			
+			ToString annot  =f.getAnnotation(ToString.class);
+			
+			
+			if (annot != null){
+				if(annot.upperCase()){
+					temp += f.toString().toUpperCase() + " ";
+				}else{
+					temp += f.toString()+ " ";
+				}
+			}
+			
+		}
+
+		return temp;
+		//return code + " -> " + libelle + "("+prix+" €) Type : "+category;
 	}
 
 	public String getCode(){
