@@ -18,5 +18,9 @@ public interface IPizzaDao {
     Pizza findPizzaByCode(String codePizza);
 
     boolean pizzaExists(String codePizza);
+    
+    default void saveAllPizzaIntoDb(){
+    	//do nothing
+    }
 
 }

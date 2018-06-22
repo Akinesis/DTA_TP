@@ -23,6 +23,7 @@ public class PizzaMemDao implements IPizzaDao {
             saveNewPizza(new Pizza("SAV", "La savoyarde", 13,CategoriePizza.VIANDE));
             saveNewPizza(new Pizza("ORI", "L’orientale", 13.5,CategoriePizza.POISSON));
             saveNewPizza(new Pizza("IND", "L’indienne", 14,CategoriePizza.SANS_VIANDE));
+            
         } catch (StockageException e) {
             e.printStackTrace();
         }
@@ -50,10 +51,8 @@ public class PizzaMemDao implements IPizzaDao {
 
     }
 
-
     public void updatePizza(String codePizza, Pizza pizza) throws StockageException {
 
-        int i = 0;
         boolean pizzaIsFound = false;
         
         if(pizza.getPrix() <= 0){
@@ -78,7 +77,6 @@ public class PizzaMemDao implements IPizzaDao {
 
     public void deletePizza(String codePizza) throws StockageException {
 
-        int i = 0;
         boolean pizzaIsFound = false;
 
         for (Pizza p : pizzas) {
@@ -94,11 +92,6 @@ public class PizzaMemDao implements IPizzaDao {
             
         }
     }
-    
-    public void savePizzaInDb(Pizza pizza){
-    	
-    }
-
 
     public Pizza findPizzaByCode(String codePizza) {
 

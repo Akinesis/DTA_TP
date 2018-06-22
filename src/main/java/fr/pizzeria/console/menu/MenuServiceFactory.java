@@ -1,5 +1,6 @@
 package fr.pizzeria.console.menu;
 
+import fr.pizzeria.console.IPizzaDao;
 import fr.pizzeria.console.PizzaMemDao;
 import fr.pizzeria.exception.StockageException;
 
@@ -12,7 +13,7 @@ public class MenuServiceFactory {
     }
 
     //Execute all the code for the current menu choice
-    public boolean executeMenuLine(PizzaMemDao pizzasManager)throws StockageException{
+    public boolean executeMenuLine(IPizzaDao pizzasManager)throws StockageException{
         return menuChoice.executeUC(pizzasManager);
     }
 
@@ -31,6 +32,9 @@ public class MenuServiceFactory {
                 break;
             case 4:
                 menuChoice = new SupprimerPizzaService();
+                break;
+            case 5:
+                menuChoice = new SaveAllPizzaService();
                 break;
             case 99:
                 menuChoice = new QuitterPizzaService();

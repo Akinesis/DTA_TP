@@ -1,5 +1,8 @@
 package fr.pizzeria.console;
 
+import java.io.IOException;
+
+import fr.pizzeria.Utils.ConfigReader;
 import fr.pizzeria.Utils.KeyboardReader;
 import fr.pizzeria.console.menu.ListerPizzasService;
 import fr.pizzeria.console.menu.MenuServiceFactory;
@@ -10,12 +13,19 @@ public class PizzeriaAdminConsoleApp {
 
 
     private MenuServiceFactory menu;
-    private PizzaMemDao pizzasManager;
+    private IPizzaDao pizzasManager;
 
     private boolean applicationIsTerminated;
 
     public static void main(String[] args) {
-        PizzeriaAdminConsoleApp app = new PizzeriaAdminConsoleApp();
+    	try {
+			ConfigReader.loadConfig();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	
+    	PizzeriaAdminConsoleApp app = new PizzeriaAdminConsoleApp();
 
         int userInput = -1;
 
@@ -26,7 +36,7 @@ public class PizzeriaAdminConsoleApp {
             //read the user input and parse it to Integer
             userInput = Integer.parseInt(KeyboardReader.readInput());
 
-            if ((userInput > 0 && userInput < 5) || userInput == 99) {
+            if ((userInput > 0 && userInput < 6) || userInput == 99) {
 
                 app.setMenuChoice(userInput);
                 app.executeMenuLine();
@@ -46,7 +56,9 @@ public class PizzeriaAdminConsoleApp {
         //boolean value to check if the application must stop.
         applicationIsTerminated = false;
         //create the Pizza doa object. First pizzas are initiate int the constructor
-        pizzasManager = new PizzaMemDao();
+        pizzasManager = new PizzaDbDao();
+        
+        System.out.println(pizzasManager.pizzaExists("MAR"));
     }
 
     //execute the code for the user choice
@@ -64,6 +76,7 @@ public class PizzeriaAdminConsoleApp {
                 "2. Ajouter une nouvelle pizza\n" +
                 "3. Mettre à jour une pizza\n" +
                 "4. Supprimer une pizza\n" +
+                "5. Sauvegarder toutes les pizzas en base\n" +
                 "99. Sortir\n");
     }
 

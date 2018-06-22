@@ -1,7 +1,7 @@
 package fr.pizzeria.console.menu;
 
 import fr.pizzeria.Utils.KeyboardReader;
-import fr.pizzeria.console.PizzaMemDao;
+import fr.pizzeria.console.IPizzaDao;
 import fr.pizzeria.exception.SavePizzaException;
 import fr.pizzeria.exception.StockageException;
 import fr.pizzeria.model.CategoriePizza;
@@ -9,7 +9,7 @@ import fr.pizzeria.model.Pizza;
 
 public class ModifierPizzaService implements MenuService {
 
-	public boolean executeUC(PizzaMemDao pizzasManager) throws StockageException{
+	public boolean executeUC(IPizzaDao pizzasManager) throws StockageException{
 
 		String oldCode;
 		String tempCode,tempLibel;
@@ -32,7 +32,7 @@ public class ModifierPizzaService implements MenuService {
 			System.out.println("Veuillez saisir le prix :");
 			tempPrice = Double.parseDouble(KeyboardReader.readInput());
 			System.out.println("Veuillez saisir la catégorie (viande, poisson, sans viande :");
-			tempCateg = CategoriePizza.findByValue(KeyboardReader.readInput());
+			tempCateg = CategoriePizza.findByValue(KeyboardReader.readInput().toLowerCase());
 		}catch (Exception e) {
 			throw new SavePizzaException("Problème de lecture des entrées.");
 		}

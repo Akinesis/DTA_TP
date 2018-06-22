@@ -6,6 +6,7 @@ public class Pizza {
 
 	private String code;
 	private String libelle;
+
 	private double prix;
 
 	private CategoriePizza category;
@@ -13,11 +14,12 @@ public class Pizza {
 
 	private static  int counter = 0;
 
-	public Pizza(int id, String code, String libelle, double prix){
+	public Pizza(int id, String code, String libelle, double prix, CategoriePizza category){
 		this.id = id;
 		this.code = code;
 		this.libelle = libelle;
 		this.prix = prix;
+		this.category = category;
 	}
 
 	public Pizza(String code, String libelle, double prix, CategoriePizza category){
@@ -36,14 +38,6 @@ public class Pizza {
 		return code + " -> " + libelle + "("+prix+" €) Type : "+category;
 	}
 
-	public String getCode(){
-		return code;
-	}
-
-	public int getID(){
-		return id;
-	}
-
 	@Override
 	//Implementation of equals for more efficient usage of the List
 	public boolean equals(Object obj) {
@@ -60,5 +54,21 @@ public class Pizza {
 	
 	public double getPrix(){
 		return prix;
+	}
+	
+	public String getCode(){
+		return code;
+	}
+
+	public int getID(){
+		return id;
+	}
+	
+	public String getLibelle() {
+		return libelle;
+	}
+	
+	public CategoriePizza getCategory() {
+		return category;
 	}
 }

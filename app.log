@@ -1,0 +1,223 @@
+11:42:05.898 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+11:42:26.512 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+11:46:13.445 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+11:46:13.460 [main] ERROR fr.pizzeria.Utils.JdbcConnector - Error while inserting data into table
+11:47:34.077 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+11:47:34.083 [main] ERROR fr.pizzeria.Utils.JdbcConnector - Error while inserting data into table
+11:48:42.852 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+11:48:42.865 [main] ERROR fr.pizzeria.Utils.JdbcConnector - Error while inserting data into table
+11:49:50.992 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+11:50:42.449 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+11:57:00.696 [main] DEBUG fr.pizzeria.Utils.JdbcConnector - jdbc:mariadb://localhost:3306/pizza_db
+11:57:00.730 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:30:30.626 [main] DEBUG fr.pizzeria.Utils.JdbcConnector - jdbc:mariadb://localhost:3306/pizza_db
+12:30:30.661 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:30:30.672 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:30:30.672 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:30:30.675 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:30:30.675 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:30:30.678 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:30:30.678 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:30:30.681 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:30:30.682 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:30:30.684 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:30:30.684 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:30:30.687 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:30:30.687 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:30:30.690 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:30:30.690 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:30:30.692 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:31:40.344 [main] DEBUG fr.pizzeria.Utils.JdbcConnector - jdbc:mariadb://localhost:3306/pizza_db
+12:31:40.377 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:31:40.386 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:31:40.387 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:31:40.389 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:31:40.389 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:31:40.393 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:31:40.393 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:31:40.396 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:31:40.396 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:31:40.396 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:31:40.396 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:31:40.399 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:31:40.399 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:31:40.399 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:31:40.399 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:31:40.399 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:33:04.179 [main] DEBUG fr.pizzeria.Utils.JdbcConnector - jdbc:mariadb://localhost:3306/pizza_db
+12:33:04.209 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:33:12.240 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:33:12.240 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:33:12.243 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:33:12.243 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:33:12.246 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:33:12.246 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:33:12.249 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:33:12.250 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:33:12.253 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:33:12.253 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:33:12.257 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:33:12.257 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:33:12.263 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:33:12.263 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:33:12.266 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:34:36.292 [main] DEBUG fr.pizzeria.Utils.JdbcConnector - jdbc:mariadb://localhost:3306/pizza_db
+12:34:36.325 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:34:36.337 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:34:36.337 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:34:36.339 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:34:36.339 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:34:36.342 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:34:36.343 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:34:36.345 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:34:36.346 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:34:36.348 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:34:36.348 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:34:36.350 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:34:36.350 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:34:36.352 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+12:34:36.352 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+12:34:36.355 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+14:33:31.668 [main] DEBUG fr.pizzeria.Utils.JdbcConnector - jdbc:mariadb://localhost:3306/pizza_db
+14:34:23.947 [main] DEBUG fr.pizzeria.Utils.JdbcConnector - jdbc:mariadb://localhost:3306/pizza_db
+14:42:49.091 [main] DEBUG fr.pizzeria.Utils.JdbcConnector - jdbc:mariadb://localhost:3306/pizza_db
+14:43:28.895 [main] DEBUG fr.pizzeria.Utils.JdbcConnector - jdbc:mariadb://localhost:3306/pizza_db
+14:44:14.300 [main] DEBUG fr.pizzeria.Utils.JdbcConnector - jdbc:mariadb://localhost:3306/pizza_db
+14:47:18.318 [main] DEBUG fr.pizzeria.Utils.JdbcConnector - jdbc:mariadb://localhost:3306/pizza_db
+14:49:28.042 [main] DEBUG fr.pizzeria.Utils.JdbcConnector - jdbc:mariadb://localhost:3306/pizza_db
+14:50:04.658 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+14:53:20.906 [main] DEBUG fr.pizzeria.Utils.JdbcConnector - jdbc:mariadb://localhost:3306/pizza_db
+14:53:41.837 [main] DEBUG fr.pizzeria.Utils.JdbcConnector - jdbc:mariadb://localhost:3306/pizza_db
+14:54:07.280 [main] DEBUG fr.pizzeria.Utils.JdbcConnector - jdbc:mariadb://localhost:3306/pizza_db
+15:02:41.554 [main] DEBUG fr.pizzeria.Utils.JdbcConnector - jdbc:mariadb://localhost:3306/pizza_db
+15:17:18.047 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:17:18.050 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:17:18.051 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:17:18.051 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+15:17:18.059 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:17:18.059 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:17:18.059 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:17:18.059 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:17:18.059 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:17:18.059 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:18:21.868 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:18:21.870 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:18:21.871 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:18:21.871 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:18:21.872 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:18:21.872 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:18:21.873 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:18:21.873 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:35:14.031 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:35:14.036 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:35:14.037 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:35:14.037 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:35:14.038 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:35:14.038 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:35:14.039 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:35:14.039 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:35:19.507 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:35:25.889 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:35:29.425 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:36:39.596 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:36:39.599 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:36:39.600 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:36:39.602 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:36:39.602 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:36:39.603 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:36:39.603 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:36:39.604 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:36:42.961 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:36:47.298 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:36:52.177 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:36:57.905 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:37:01.953 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:37:04.270 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:37:07.394 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:37:09.089 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:37:10.333 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:57:36.696 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:57:36.699 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:57:36.699 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+15:57:36.709 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:57:36.710 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:57:36.711 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:57:36.711 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:57:36.712 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:57:36.712 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:57:36.712 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+15:57:55.618 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:00:31.957 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:00:31.961 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:00:31.961 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:00:31.962 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:00:31.962 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:00:31.963 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:00:31.963 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:00:31.964 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:00:34.850 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:01:28.680 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:01:28.683 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:01:28.684 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:01:28.684 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:01:28.685 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:01:28.685 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:01:28.686 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:01:28.687 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:01:33.440 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:02:31.893 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:02:31.896 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:02:31.897 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:02:31.897 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:02:31.898 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:02:31.898 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:02:31.899 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:02:31.899 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:02:34.003 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:06:19.879 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:06:19.883 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:06:19.884 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:06:19.887 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:06:19.888 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:06:19.889 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:06:19.890 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:06:19.890 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:06:23.461 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:06:46.178 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:06:46.178 [main] INFO  fr.pizzeria.Utils.JdbcConnector - UPDATE pizza SET code= ?,libelle= ?,prix= ?,categorie= ? WHERE code='TES'
+16:06:59.121 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:43:03.766 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:43:03.770 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:43:03.771 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:43:03.773 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:43:03.774 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:43:03.776 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:43:03.778 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:43:03.779 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:43:12.194 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:44:32.132 [main] ERROR fr.pizzeria.Utils.JdbcConnector - Wrong Jdbc Driver type
+16:57:35.974 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:57:35.977 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+16:57:36.017 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:57:36.033 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:57:36.033 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+16:57:36.081 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:57:36.100 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:57:36.100 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+16:57:36.131 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:57:36.163 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:57:36.163 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+16:57:36.199 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:57:36.216 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:57:36.216 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+16:57:36.257 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:57:36.279 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:57:36.279 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+16:57:36.315 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:57:36.337 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:57:36.337 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+16:57:36.416 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:57:36.432 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:57:36.432 [main] INFO  fr.pizzeria.Utils.JdbcConnector - INSERT INTO pizza(code,libelle,prix,categorie) VALUES (?,?,?,?)
+16:57:36.481 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.
+16:57:40.087 [main] INFO  fr.pizzeria.Utils.JdbcConnector - Connection still up and running.

@@ -11,7 +11,7 @@ public enum CategoriePizza {
     CategoriePizza(String s) {
         categorie = s;
     }
-
+    
     public static CategoriePizza findByValue(String s) {
         if (s.toLowerCase().equals("viande")){
             return VIANDE;

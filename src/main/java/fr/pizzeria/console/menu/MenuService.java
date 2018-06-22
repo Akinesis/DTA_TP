@@ -1,9 +1,8 @@
 package fr.pizzeria.console.menu;
 
-import fr.pizzeria.console.PizzaMemDao;
+import fr.pizzeria.console.IPizzaDao;
 import fr.pizzeria.exception.StockageException;
-import fr.pizzeria.model.Pizza;
 
 public interface MenuService {
-   boolean executeUC(PizzaMemDao pizzasManager) throws StockageException;
+   boolean executeUC(IPizzaDao pizzasManager) throws StockageException;
 }

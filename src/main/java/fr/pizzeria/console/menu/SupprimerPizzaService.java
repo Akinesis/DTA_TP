@@ -1,13 +1,13 @@
 package fr.pizzeria.console.menu;
 
 import fr.pizzeria.Utils.KeyboardReader;
-import fr.pizzeria.console.PizzaMemDao;
+import fr.pizzeria.console.IPizzaDao;
 import fr.pizzeria.exception.StockageException;
 import fr.pizzeria.model.Pizza;
 
 public class SupprimerPizzaService implements MenuService {
 
-    public boolean executeUC(PizzaMemDao pizzasManager) throws StockageException {
+    public boolean executeUC(IPizzaDao pizzasManager) throws StockageException {
 
         String delCode;
         int i = 0;
